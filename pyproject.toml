@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "opt-pulp"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme Prado <guizmk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cython = "^3.0.10"
+pulp = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
